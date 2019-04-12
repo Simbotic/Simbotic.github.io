@@ -107,7 +107,7 @@ transition: 0.5s;
 
 .DivContainerIcons{
 
-    padding: 30px 0 0 0 ;
+    padding: 20px 0 0 0 ;
 
 }
 
@@ -180,6 +180,16 @@ transition: 0.5s;
 .TxtBubble{
     line-height: 1.2 !important;
 }
+.skew{
+
+
+}
+
+.skew::after{
+    content: '';
+    
+    transform: skew(0 , 20deg)
+}
 
 
 .padding_icons{
@@ -224,6 +234,13 @@ transition: 0.5s;
 }
 .appears{
     display: none;
+}
+
+.DivTextContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0px, 25%);
 }
 
 .rowRoy{
@@ -297,6 +314,15 @@ transition: 0.5s;
 .figcap{
     padding: 20px 0 20px 0;
 }
+
+}
+
+.fluid-width-video-wrapper{
+    height:100%;
+    padding-top: 56% !important;
+}
+iframe:nth-child(2){
+
 
 }
 
