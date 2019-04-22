@@ -157,12 +157,15 @@ transition: 0.5s;
 }
 
 .tittle{
-    font-size:24px;
+    font-size:32px;
     color:#EA297B !important;
     font-weight:800;
     text-align: center;
     margin-bottom: 5px;
     line-height: 1.2; 
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-family: EngraversGothic !important;
 }
 
 .BoxTittle{
@@ -268,9 +271,7 @@ transition: 0.5s;
         text-align: center !important;
   }
 
-  .text-center{
-    text-align: center !important;
-  }
+ 
 
   .DesktopIcons{
       display: none;
@@ -326,10 +327,6 @@ transition: 0.5s;
 .fluid-width-video-wrapper{
     height:100%;
     padding-top: 56% !important;
-}
-iframe:nth-child(2){
-
-
 }
 
 @media only screen and (max-width: 900px) {
