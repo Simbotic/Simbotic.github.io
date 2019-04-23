@@ -22,6 +22,9 @@
     font-family: EngraversGothic;
     src:url("Fonts/EngraversGothicRegular/EngraversGothicRegular.otf")
 }
+pruebaVariables{
+--color :red ;
+}
 
 
 .embed-container iframe,
@@ -42,7 +45,7 @@
 
 
 .NwFont{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
 .MainVideo{
     height:100vh;
@@ -164,7 +167,7 @@ transition: 0.5s;
     margin-bottom: 5px;
     line-height: 1.2; 
     text-transform: uppercase;
-    letter-spacing: 12px;
+    letter-spacing: 5px;
     font-family: EngraversGothic !important;
 }
 
@@ -260,6 +263,13 @@ transition: 0.5s;
     flex-wrap: wrap;
     margin-right: 0px;
     margin-left: 0px;
+}
+
+.SeparatorLine{
+    border: #dddddd solid 1px;
+}
+.SeparatorLineMargin{
+    margin: 30px 0px 20px 0px;
 }
 
 
