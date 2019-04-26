@@ -43,6 +43,8 @@ pruebaVariables{
     overflow: hidden;
   }
 
+ 
+
 
 .NwFont{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
@@ -89,6 +91,10 @@ pruebaVariables{
 font-size: 36px !important;
 transition: 0.5s;
    
+}
+.EngineIcons:hover{
+
+    color: aqua;
 }
 .fonts{
 
@@ -240,15 +246,19 @@ transition: 0.5s;
 }
 
 
-.EngineIcons:hover{
 
-    color: aqua;
-}
 .appears{
     display: none;
 }
 
 .DivTextContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    /*transform: translate(0px, 25%);*/
+}
+
+.DivTextContainerImages{
     position: relative;
     top: 0;
     left: 0;
