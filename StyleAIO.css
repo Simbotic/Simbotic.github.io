@@ -99,7 +99,7 @@ transition: 0.5s;
 .fonts{
 
     display: inline;
-    font-size: 24px;
+    font-size: 22px;
     text-align: left !important;
     
 }
@@ -284,10 +284,17 @@ transition: 0.5s;
 
 
 @media only screen and (max-width: 768px) {
+
+
+.DivCenter{
+
+    text-align: center;
+}
+
     .fonts{
 
         display: inline;
-        font-size: 24px;
+        font-size: 22px;
         text-align: center !important;
   }
 
@@ -358,3 +365,100 @@ transition: 0.5s;
 
 }
 
+
+
+/*style.css*/
+
+#gotoTop {
+	display: none;
+	z-index: 299;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background-color: #333;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 20px;
+	line-height: 36px;
+	text-align: center;
+	color: #FFF;
+	top: auto;
+	left: auto;
+	right: 30px;
+	bottom: 50px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+body:not(.device-touch) #gotoTop {
+	transition: background-color .2s linear;
+	-webkit-transition: background-color .2s linear;
+	-o-transition: background-color .2s linear;
+}
+
+.stretched #gotoTop { bottom: 30px; }
+
+.team,
+.team-image { position: relative; }
+
+
+#content {
+	position: relative;
+	overflow: hidden;
+	background-color: #FFF;
+}
+
+#content p { line-height: 1.8; }
+
+.content-wrap {
+	position: relative;
+	padding: 80px 0;
+}
+
+#content .container { position: relative; }
+
+body.side-push-panel { overflow-x: hidden; }
+
+.notoppadding { padding-top: 0 !important; }
+
+.nopadding { padding: 0 !important; }
+
+p,
+pre,
+ul,
+ol,
+dl,
+dd,
+blockquote,
+address,
+table,
+fieldset,
+form { margin-bottom: 30px; }
+
+h1 { font-size: 36px; }
+
+h2 { font-size: 30px; }
+
+body,
+.dropdown-menu { font-size: 0.875rem; }
+
+dl, dt, dd, ol, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1.5;
+	color: #555;
+	/*font-family: 'Lato', sans-serif;*/
+}
+
+a {
+	text-decoration: none !important;
+	color: #1ABC9C;
+}
+
+a img { border: none; }
+
+img { max-width: 100%; }
+
+iframe { border: none !important; }
