@@ -49,6 +49,11 @@ pruebaVariables{
 .NwFont{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
 }
+
+.highlight-phrase {
+    font-family: sans-serif;
+}
+
 .MainVideo{
     height:100vh;
     width:100%;
