@@ -59,6 +59,10 @@
     background-color: #eee !important;
 }
 
+.EpicGrants{
+    width: 25%; padding: 15px 0px;
+}
+
 .background{
     background-color: #1b191d ;
 }
@@ -87,6 +91,9 @@
 @media only screen and (max-width: 800px) {
     .posicion{
         position: relative !important;
+    }
+    .EpicGrants{
+        width: 50%; padding: 15px 0px;
     }
 }
 
@@ -156,4 +163,8 @@
 
 .video-text-bottom-space {
     margin-bottom: 30px;
+}
+
+.formMail{
+    color:black;
 }
